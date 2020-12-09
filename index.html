@@ -3,6 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <title>TestDataPortalContent</title>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+
     <script src="https://raw.githubusercontent.com/USDepartmentofLabor/Data-Portal-Content/main/utils/jaymcdaniel-map.js"></script>
   </head>
 
@@ -12,12 +18,27 @@
       src="https://raw.githubusercontent.com/USDepartmentofLabor/Data-Portal-Content/main/images/DOL-logo.png"
       alt="DOL Logo"
     />
-    <div style="overflow: auto">
+    <div className="col-sm-8">
       <div
-        class="map_display_area"
-        id="chart1"
-        style="width: 810px; height: 750px; margin: auto; padding: 0px"
-      ></div>
+        className="views-element-container"
+        id="block-views-block-homepage-hero-block-4"
+      >
+        <div block="block-views-block-homepage-hero-block-4">
+          <div
+            id="main-content"
+            tabindex="{-1}"
+            className="basic-title-banner-title-container"
+          >
+            <div style="overflow: auto" ,>
+              <div
+                class="map_display_area"
+                id="chart1"
+                style="width: 810px; height: 750px; margin: auto; padding: 0px"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
